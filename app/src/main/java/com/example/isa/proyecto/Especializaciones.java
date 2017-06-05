@@ -6,7 +6,7 @@ import android.webkit.WebView;
 
 public class Especializaciones extends AppCompatActivity {
     WebView webView;
-    @Overrid
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_especializaciones);
