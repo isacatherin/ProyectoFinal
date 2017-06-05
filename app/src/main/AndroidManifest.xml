@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.isa.proyecto">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".MisionVision" />
+        <activity android:name=".ValoresInstitucionales" />
+        <activity android:name=".LineamientosAcademicos" />
+        <activity android:name=".CalendarioAcademico" />
+        <activity android:name=".ReglamentoEstudiantil" />
+        <activity android:name=".DirectorioAdministrativo" />
+        <activity android:name=".DondeEstamos" />
+        <activity android:name=".Armenia" />
+        <activity android:name=".Boyaca" />
+        <activity android:name=".Bucaramanga" />
+        <activity android:name=".Cucuta" />
+        <activity android:name=".Medellin" />
+        <activity android:name=".Monteria" />
+        <activity android:name=".Pasto" />
+        <activity android:name=".Pereira" />
+        <activity android:name=".Sincelejo" />
+        <activity android:name=".Yopal" />
+        <activity android:name=".Especializaciones" />
+        <activity android:name=".Pregrado" />
+        <activity android:name=".Tecnologias" />
+        <activity android:name=".Extension" />
+        <activity android:name=".GruposDeEstudio" />
+        <activity android:name=".PreInscripcion" />
+        <activity android:name=".RequisitosDeInscripcion" />
+        <activity android:name=".Homologaciones" />
+        <activity android:name=".FormasDePago" />
+        <activity android:name=".ConveniosYDescuentos" />
+        <activity android:name=".Moodle" />
+        <activity android:name=".Q10" />
+        <activity android:name=".ReciboDeMatricula" />
+        <activity android:name=".DocumentosNuevos" />
+        <activity android:name=".ReservaDeEquipos" />
+        <activity android:name=".BibliotecaUniremington" />
+        <activity android:name=".ModuloAtencionPQRS" />
+        <activity android:name=".Internacionalizacion" />
+        <activity android:name=".RepresentantesEstudiantiles" />
+        <activity android:name=".ConveniosYDescuentosBienestar" />
+        <activity android:name=".CalendarioEventos" />
+        <activity android:name=".Encuesta" />
+        <activity android:name=".SedeCable" />
+        <activity android:name=".SedeCentro"></activity>
+    </application>
+
+</manifest>
